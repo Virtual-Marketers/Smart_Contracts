@@ -1,5 +1,4 @@
-var HelloBlockchain = artifacts.require("HelloBlockchain");
-var Arg = "Hello world";
+var BlockDemyCoin = artifacts.require("BlockDemyCoin");
 module.exports = deployer => {
-    deployer.deploy(HelloBlockchain, Arg);
+    deployer.deploy(BlockDemyCoin);
 };
